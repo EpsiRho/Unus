@@ -156,16 +156,17 @@ namespace Deck_Prototype.Classes
             {
                 return true;
             }
-            if (card.Number == Top.Number)
-            {
-                return true;
-            }
             if (card.Type != Enums.CardType.Normal)
             {
                 if (card.Type == Top.Type)
                 {
                     return true;
                 }
+                return false;
+            }
+            if (card.Number == Top.Number)
+            {
+                return true;
             }
             return false;
         }
