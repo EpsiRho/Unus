@@ -50,25 +50,17 @@ Cards have two sides, light and dark.
 
 A special switch sides card changes which sides are in play when discarded.
 
-
-
-
-
 ## Prototypes
 
 ### Deck Prototype
 
 This is a console application that tests the Deck, Hand, and Card related classes. It creates a new Deck, fills it with standard cards, shuffles it, and deals it out to the player Hands.
 
+### Playable Card Detection Prototype
 
+This console application tests code for seeing what cards can be played based on the discard pile's top card. Also tests drawing untill a playable card is found. Finally, tests code for playing a card.
 
 ### To-Do
-
-- Playable Card Dectection Prototype
-  
-  - Tests code for seeing what cards can be played based on the discard pile's top card. Also tests drawing untill a playable card is found. Finally, Tests code for playing a card.
-  
-  - Console Application
 
 - Unus Bot Prototype
   
